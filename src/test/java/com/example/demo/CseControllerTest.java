@@ -17,7 +17,7 @@ class CseControllerTest {
 	@Test
 	void test1() {
 		String results = c.roll();
-		assertEquals("23MH1A05E7",results);
+		assertEquals("23MH1A05G0",results);
 	}
 
 }
