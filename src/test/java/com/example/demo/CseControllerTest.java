@@ -14,5 +14,10 @@ class CseControllerTest {
 		int result = c.addCSE(2, 3);
 		assertEquals(5, result);
 	}
+	@Test
+	void test1() {
+		String results = c.roll();
+		assertEquals("23MH1A05E7",results);
+	}
 
 }
